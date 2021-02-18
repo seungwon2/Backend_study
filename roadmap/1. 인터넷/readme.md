@@ -72,7 +72,7 @@ Request Method (요청의 종류)
 - **PUT**: 자료의**수정**을 요청할 때 사용
 - **DELETE**: 자료의**삭제**를 요청할 때 사용
 
-```
+```html
 GET https://~~/~~ HTTP/1.1								// 시작줄
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...			  // 헤더
 Upgrade-Insecure-Requests: 1
@@ -96,7 +96,7 @@ Status Code (상태 코드)
 - **4XX (요청 오류)**: 클라이언트에 오류가 있음을 나타낸다.
 - **5XX (서버 오류)**: 서버가 유효한 요청을 명백하게 수행하지 못했음을 나타낸다.
 
-```
+```html
 HTTP/1.1 200 OK														// 시작줄
 Connection: keep-alive												 // 헤더
 Content-Encoding: gzip
@@ -172,8 +172,6 @@ HTTPS는 HTTP에 보안 계층을 추가한 것입니다. HTTPS는 제3자 인�
 6.  자바스크립트 해석기 - 자바스크립트 코드를 해석하고 실행.
 7.  자료 저장소 - 이 부분은 자료를 저장하는 계층이다. 쿠키를 저장하는 것과 같이 모든 종류의 자원을 하드 디스크에 저장할 필요가 있다. HTML5 명세에는 브라우저가 지원하는 '[웹](http://www.html5rocks.com/en/features/storage)[](http://www.html5rocks.com/en/features/storage)[데이터](http://www.html5rocks.com/en/features/storage)[](http://www.html5rocks.com/en/features/storage)[베이스](http://www.html5rocks.com/en/features/storage)'가 정의되어 있다.
 
-[##_Image|kage@pA17s/btqXHgFhW2u/JPZM1Oeg3qDGKvfdGPLkhK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|브라우저 주요 구성 요소||_##]
-
 크롬은 대부분의 브라우저와 달리 각 탭마다 별도의 렌더링 엔진 인스턴스를 유지하는 것이 주목할만하다. 각 탭은 독립된 프로세스로 처리된다.
 
 ## 렌더링 엔진
@@ -194,10 +192,6 @@ HTTPS는 HTTP에 보안 계층을 추가한 것입니다. HTTPS는 제3자 인�
 
 다음은 렌더링 엔진의 기본적인 동작 과정이다.
 
-[##_Image|kage@ctNE6x/btqXHfGi0vg/QU9mAdrdR8alpneiZbSG7K/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
-
-그림 2 렌더링 엔진의 동작 과정
-
 렌더링 엔진은 HTML 문서를 파싱하고 "콘텐츠 트리" 내부에서 태그를[DOM](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)노드로 변환한다. 그 다음 외부 CSS 파일과 함께 포함된 스타일 요소도 파싱한다. 스타일 정보와 HTML 표시 규칙은 "[렌더](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)[](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)[트리](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)"라고 부르는 또 다른 트리를 생성한다.
 
 렌더 트리는 색상 또는 면적과 같은 시각적 속성이 있는 사각형을 포함하고 있는데 정해진 순서대로 화면에 표시된다.
@@ -207,14 +201,6 @@ HTTPS는 HTTP에 보안 계층을 추가한 것입니다. HTTPS는 제3자 인�
 일련의 과정들이 점진적으로 진행된다는 것을 아는 것이 중요하다. 렌더링 엔진은 좀 더 나은 사용자 경험을 위해 가능하면 빠르게 내용을 표시하는데 모든 HTML을 파싱할 때까지 기다리지 않고 배치와 그리기 과정을 시작한다. 네트워크로부터 나머지 내용이 전송되기를 기다리는 동시에 받은 내용의 일부를 먼저 화면에 표시하는 것이다.
 
 ### 동작 과정 예
-
-[##_Image|kage@210rk/btqXD4FhJJf/jyHbnYJwkTi1UMnzOgsaE0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
-
-그림 3 웹킷 동작 과정
-
-[##_Image|kage@cfNz9G/btqXyMZKjHy/hI3wvHUJVovTfkROq7R3Zk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
-
-그림 4 모질라의 게코 렌더링 엔진 동작 과정(3.6)
 
 웹킷과 게코가 용어를 약간 다르게 사용하고 있지만 동작 과정은 기본적으로 동일하다는 것을 그림 3과 그림 4에서 알 수 있다.
 
