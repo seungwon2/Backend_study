@@ -4,8 +4,8 @@
 
 ### 서버 & 클라우드 & 아키텍쳐
 
-- [ ] [넷플릭스가 AWS로 이전한 과정](http://bit.ly/2PlJZmo)
-- [ ] [Serverless와 기술도입, Backend Application의 미래](http://bit.ly/2A0SmPh)
+- [x] [넷플릭스가 AWS로 이전한 과정](http://bit.ly/2PlJZmo)
+- [x] [Serverless와 기술도입, Backend Application의 미래](http://bit.ly/2A0SmPh)
 - [ ] [월간 300억 동접자 수를 처리한 방법에 대한 글 [번역]](http://bit.ly/2IMJZts)
 - [ ] [<야생의 땅 듀랑고> 서버 아키텍쳐 1편 [시리즈][슬라이드]](https://www.slideshare.net/sublee/spof-mmorpg)
 - [ ] [<야생의 땅 듀랑고>의 데이터 엔지니어링 이야기: 로그 시스템 구축 경험 공유 [슬라이드]](http://bit.ly/2yrRDEx)
