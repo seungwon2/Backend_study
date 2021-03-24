@@ -28,4 +28,5 @@
 :bookmark: books : update <chapter>
 :white_check_mark: contents : read <article title>
 :pencil2: roadmap : update <subject>
+:pencil2: java : update <subject>
 ```
