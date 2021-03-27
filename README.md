@@ -22,6 +22,14 @@
 
 - 개발 관련 책 읽고 배운 내용 정리
 
+4. JAVA
+
+- 자바 언어 관련 공부한 내용/새롭게 알게 된 내용 정리
+
+5. 블록체인
+
+- 블록체인 관련 공부한 내용/새롭게 알게 된 내용 정리
+
 # 커밋 규칙
 
 ```js
@@ -29,4 +37,5 @@
 :white_check_mark: contents : read <article title>
 :pencil2: roadmap : update <subject>
 :pencil2: java : update <subject>
+:rocket: blockchain : update <subject>
 ```
