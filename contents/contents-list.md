@@ -12,7 +12,7 @@
 - [ ] [주니어 개발자가 외칩니다, "Hello, System Architecture!"](http://bit.ly/2pO8AFk)
 - [ ] [AWS 서버 이중화하기](http://bit.ly/2A30WwE)
 - [ ] [REST 기반의 간단한 분산 트랜잭션 구현 1편 [시리즈]](http://bit.ly/2OiOFxb)
-- [ ] [스프링부트로 웹 서비스 출시하기 - 배포 자동화 구축하기](https://jojoldu.tistory.com/265?category=635883)
+- [x] [스프링부트로 웹 서비스 출시하기 - 배포 자동화 구축하기](https://jojoldu.tistory.com/265?category=635883)
 - [ ] [웹서버 - Nginx vs Apache 성능 비교](http://bit.ly/2yint7E)
 - [ ] [우아한형제들 신규 포인트 시스템 전환기 1편 [시리즈]](http://woowabros.github.io/experience/2018/10/12/new_point_story_1.html)
 - [ ] [TreadLocal과 TreadPool을 사용하여 요청 및 응답 기록 남기기](bit.ly/2CKQSeA)
