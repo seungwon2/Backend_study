@@ -10,7 +10,7 @@
 - [x] [<야생의 땅 듀랑고> 서버 아키텍쳐 1편 [시리즈][슬라이드]](https://www.slideshare.net/sublee/spof-mmorpg)
 - [x] [<야생의 땅 듀랑고>의 데이터 엔지니어링 이야기: 로그 시스템 구축 경험 공유 [슬라이드]](http://bit.ly/2yrRDEx)
 - [x] [주니어 개발자가 외칩니다, "Hello, System Architecture!"](http://bit.ly/2pO8AFk)
-- [ ] [AWS 서버 이중화하기](http://bit.ly/2A30WwE)
+- [x] [AWS 서버 이중화하기](http://bit.ly/2A30WwE)
 - [ ] [REST 기반의 간단한 분산 트랜잭션 구현 1편 [시리즈]](http://bit.ly/2OiOFxb)
 - [x] [스프링부트로 웹 서비스 출시하기 - 배포 자동화 구축하기](https://jojoldu.tistory.com/265?category=635883)
 - [ ] [웹서버 - Nginx vs Apache 성능 비교](http://bit.ly/2yint7E)
